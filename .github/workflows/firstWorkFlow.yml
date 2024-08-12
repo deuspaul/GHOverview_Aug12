@@ -33,7 +33,7 @@ jobs:
           echo $WORKFLOW_VAR
           echo $JOB_VAR
           echo $STEP_VAR
-          echo "The following is a secret: ${{ secret.SOME_SECRET }}
+          echo "The following is a secret: ${{ secret.SOME_SECRET }}"
           echo "The folllowing are default environment variables"
           echo $GITHUB_ACTOR
           echo $GITHUB_JOB
